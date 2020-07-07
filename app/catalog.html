@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Доволенское</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="mobile-menu">
+    <div class="mobile-menu__wrapper">
+        <div class="mobile-menu__top">
+            <div class="logo-wrapper">
+                <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+                <div class="description-company">Производитель масла,
+                    сыров и сухого молока
+                </div>
+            </div>
+
+            <div class="menu-close"><img src="img/close-mobile.png" alt=""></div>
+        </div>
+
+        <div class="mobile-menu__body">
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="orders.html">Купим молоко</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <div class="logo-wrapper">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="description-company">Производитель масла,
+                сыров и сухого молока
+            </div>
+        </div>
+
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="orders.html">Купим молоко</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+
+        <a href="#callback__modal" class="btn btn-border open_modal">Заказать звонок</a>
+
+        <div class="box-contacts">
+            <a href="tel:88888888888" class="phone">8-888-888-88-88</a>
+            <a href="mailto:example@info.ru" class="mail">example@info.ru</a>
+        </div>
+        <div class="btn-burger"><img src="img/burger.png" alt=""></div>
+    </div>
+</header>
+
+
+
+<section class="production">
+    <div class="container">
+        <h1>Каталог</h1>
+
+        <div class="tabs">
+            <ul class="tabs__caption">
+                <li class="active">Масло</li>
+                <li>Сухое молоко</li>
+                <li>Сыры</li>
+            </ul>
+            <div class="tabs__content active">
+                <div class="product-card">
+                    <div class="product-card__img bg-blue">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod1.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Масло фасованное</h3>
+                        <ul>
+                            <li>фольга 180 г 72,5%</li>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 80 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__img bg-red">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod2.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Масло фасованное</h3>
+                        <ul>
+                            <li>фольга 180 г 72,5%</li>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 85 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__img bg-bronze">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod3.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Масло фасованное</h3>
+                        <ul>
+                            <li>фольга 180 г 72,5%</li>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 90 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__img bg-blue">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod1.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Масло крестьянское
+                            72,5% (0,5 кг)</h3>
+                        <ul>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 80 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img bg-blue">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod1.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Масло крестьянское
+                            72,5% (0,5 кг)</h3>
+                        <ul>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 80 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img bg-blue">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod1.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Масло крестьянское
+                            72,5% (0,5 кг)</h3>
+                        <ul>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 80 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+
+                <div class="btn-load">
+                    <div class="icon"><img src="img/restart.png" alt=""></div>
+                    <div class="text">Загрузить еще</div>
+                </div>
+            </div>
+            <div class="tabs__content">
+                <div class="product-card">
+                    <div class="product-card__img bg-blue">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod8.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сухое молоко</h3>
+                        <ul>
+                            <li>текст</li>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 80 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__img bg-red">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod9.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сухое молоко</h3>
+                        <ul>
+                            <li>текст</li>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 85 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__img bg-bronze">
+                        <div class="smile-icon"><img src="img/smile.png" alt=""></div>
+                        <img src="img/prod10.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сухое молоко</h3>
+                        <ul>
+                            <li>текст</li>
+                            <li>ГОСТ 32261-2013</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 90 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="btn-load">
+                    <div class="icon"><img src="img/restart.png" alt=""></div>
+                    <div class="text">Загрузить еще</div>
+                </div>
+            </div>
+
+            <div class="tabs__content">
+                <div class="product-card">
+                    <div class="product-card__img">
+                        <div class="smile-icon"><img src="img/smile-blue.png" alt=""></div>
+                        <img src="img/prod4.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сыр Чеддер 45%
+                            «Косичка копченая»</h3>
+                        <ul>
+                            <li>(вес)</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 90 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img">
+                        <div class="smile-icon"><img src="img/smile-blue.png" alt=""></div>
+                        <img src="img/prod5.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сыр Чеддер 45%
+                            «Косичка белая»</h3>
+                        <ul>
+                            <li>130 г.</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 90 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img">
+                        <div class="smile-icon"><img src="img/smile-blue.png" alt=""></div>
+                        <img src="img/prod4.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сыр Чеддер 45%
+                            «Косичка копченая»</h3>
+                        <ul>
+                            <li>120 г.</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 90 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img">
+                        <div class="smile-icon"><img src="img/smile-blue.png" alt=""></div>
+                        <img src="img/prod6.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сыр Чеддер 45%
+                            «Спагетти белое»</h3>
+                        <ul>
+                            <li>100 г.</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 80 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img">
+                        <div class="smile-icon"><img src="img/smile-blue.png" alt=""></div>
+                        <img src="img/prod7.jpg" alt=""></div>
+                    <div class="product-card__content">
+                        <h3>Сыр Чеддер 45%
+                            «Спагетти копченое»</h3>
+                        <ul>
+                            <li>100 г.</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 80 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img">
+                        <div class="smile-icon"><img src="img/smile-blue.png" alt=""></div>
+                    </div>
+                    <div class="product-card__content">
+                        <h3>Сыр Чеддер 45%
+                            «Хвостики копченые»</h3>
+                        <ul>
+                            <li>100 г.</li>
+                        </ul>
+                        <div class="price">
+                            Цена <span>от 90 руб.</span>
+                        </div>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">Заказать</a>
+
+                        <a href="#" class="links">Хочу кэшбэк</a>
+                    </div>
+                </div>
+                <div class="btn-load">
+                    <div class="icon"><img src="img/restart.png" alt=""></div>
+                    <div class="text">Загрузить еще</div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn btn-accent btn-terms">
+            <span class="text">Индивидуальные условия сотрудничества</span>
+            <span class="icon"><img src="img/arrow-right.png" alt=""></span>
+        </a>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="logo-wrapper">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="description-company">Производитель масла,
+                сыров и сухого молока
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <a href="#callback__modal" class="btn btn-accent open_modal">Получить прайс</a>
+            <a href="#" class="links">Политика конфиденциальности</a>
+        </div>
+
+        <div class="box-contacts">
+            <a href="tel:88888888888" class="phone">8-888-888-88-88</a>
+            <a href="mailto:example@info.ru" class="mail">example@info.ru</a>
+            <a href="#callback__modal" class="btn btn-border open_modal">Заказать звонок</a>
+        </div>
+    </div>
+</footer>
+
+<div class="modal__div" id="callback__modal">
+    <div class="modal__wrapper">
+        <div class="modal-top">
+            <div class="icon-smile"><img src="img/smile-blue.png" alt=""></div>
+            <div class="modal__close"><img src="img/close.png" alt=""></div>
+        </div>
+
+        <form method="post" class="form">
+
+            <label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+            <label><input type="text" name="phone" placeholder="Ваш телефон" required></label>
+
+            <button type="submit" class="btn-accent btn"><span class="text">Получить каталог</span><span
+                    class="icon"><img
+                    src="img/arrow-right.png" alt=""></span></button>
+        </form>
+    </div>
+</div>
+
+<div class="modal__div" id="thanks__modal">
+    <div class="modal__wrapper">
+        <div class="modal-top">
+            <div class="icon-smile"><img src="img/smile-blue.png" alt=""></div>
+            <div class="modal__close"><img src="img/close.png" alt=""></div>
+        </div>
+
+        <h3>Ваше сообщение отправлено!</h3>
+
+        <div class="modal-body">
+            <p>Можете скачать каталог по ссылке ниже</p>
+        </div>
+        <a href="price.xlsx" class="links-accent">
+            <span class="icon"><img src="img/arrow-bottom.png" alt=""></span>
+            <span class="text">Скачать каталог</span>
+        </a>
+    </div>
+</div>
+<div class="overlay"></div><!-- Пoдлoжкa -->
+
+<div class="btn-scroll-top">
+    <div class="icon"><img src="img/double-up.png" alt=""></div>
+    <div class="text">Наверх</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
