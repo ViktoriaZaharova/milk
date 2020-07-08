@@ -346,9 +346,8 @@ main {
           align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
 
 .tabs__content.active {
   display: -webkit-box;
