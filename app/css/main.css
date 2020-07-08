@@ -458,7 +458,8 @@ main {
   padding: 0 0 124px;
   background: url("../img/bg2.png") no-repeat center bottom;
     background-size: 100%;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   .production:before {
     content: '';
     position: absolute;
@@ -859,6 +860,8 @@ label {
   font-weight: 300; }
   .page-wrapper p {
     margin: 0 0 20px; }
+    .page-wrapper p a {
+      display: inline; }
   .page-wrapper strong {
     font-weight: 500; }
   .page-wrapper ul {
