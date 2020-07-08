@@ -636,8 +636,7 @@ footer {
 
 .modal__div {
   position: fixed;
-  max-width: 788px;
-  width: 100%;
+  width: 788px;
   height: 100%;
   top: 45%;
   left: 50%;
@@ -856,25 +855,24 @@ label {
 .mobile-menu__body {
   width: 100%; }
 
-.page-wrapper p {
-  margin: 0 0 20px; }
-
-.page-wrapper strong {
-  font-weight: bold; }
-
-.page-wrapper ul {
-  margin: 0 0 30px; }
-  .page-wrapper ul li {
-    margin: 0 0 5px; }
-
-.page-wrapper h3 {
-  font-family: "Magnolia-Script", sans-serif;
-  margin: 0 0 20px;
-  font-size: 22px; }
+.page-wrapper {
+  font-weight: 300; }
+  .page-wrapper p {
+    margin: 0 0 20px; }
+  .page-wrapper strong {
+    font-weight: 500; }
+  .page-wrapper ul {
+    margin: 0 0 30px; }
+    .page-wrapper ul li {
+      margin: 0 0 5px; }
+  .page-wrapper h3 {
+    margin: 0 0 20px;
+    font-size: 22px; }
 
 @media only screen and (max-width: 1920px) {
   .btn-scroll-top {
-    right: 100px; } }
+    right: 100px;
+    bottom: 96px; } }
 
 @media only screen and (max-width: 1199px) {
   .btn-scroll-top {
@@ -933,8 +931,12 @@ label {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+    footer .box-contacts {
+      margin: 18px 0 36px; }
   .footer-box {
-    margin: 18px 0 39px; }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
   .main-image {
     position: relative;
     margin: 0 0 0 auto;
